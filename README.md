@@ -1,7 +1,5 @@
 # RecipeBot
 
-A chatbot for ordering recipes.
-
 A chatbot built with Microsoft Azure JavaScript SDK 4. Utilises NLU with LUIS to retrieve recipes based on user choices.
 
 NLU is used to understand intent in greetings and with recipe requests. A controlled dialog is then used to gather the clients wants. The bot interacts with the [Spoonacular](https://spoonacular.com/food-api/) API to fetch this information.
